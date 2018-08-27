@@ -1,1 +1,37 @@
 // Specific CSS for your home-page
+.container .h1-home {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #f9cb5a;
+}
+
+.avatar-large {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px
+}
+
+.presenting-text {
+
+  margin-top:20px;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
