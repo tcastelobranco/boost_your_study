@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <%= link_to 'Boost your study', root_path, class: 'navbar-brand' %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <%= link_to 'Area', '', class: 'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Equipa', equipa_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Preço e modalidades', preco_modalidades_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item" style="padding-right: 1.5rem !important;">
+        <%= link_to 'Sobre nós', about_path, class: 'nav-link' %>
+      </li>
+      <%= link_to 'Inscreve-te', '', class: 'btn btn-outline-light' %>
+    </ul>
+  </div>
+</nav>

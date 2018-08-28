@@ -2,11 +2,18 @@ class PagesController < ApplicationController
   def home
   end
 
-  def contact
+  def about
+  end
+
+  def preco_modalidades
 
   end
 
-  def about
+  def equipa
+
+  end
+
+  def area
 
   end
 
