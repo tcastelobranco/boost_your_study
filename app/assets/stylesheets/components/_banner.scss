@@ -74,10 +74,17 @@ a:hover,a:focus{
 }
 
 table {
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 table , tr, td {
   border: 1px solid black;
-border-collapse: collapse;
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
 }
