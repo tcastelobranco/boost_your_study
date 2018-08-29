@@ -6,17 +6,17 @@
     <title>Boost</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/1.0.2/css/froala_blocks.min.css">
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
+
   <body>
     <%= render 'shared/navbar' %>
-
     <%= yield %>
-
     <%= render 'shared/footer'%>
+
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>
-
 </html>
