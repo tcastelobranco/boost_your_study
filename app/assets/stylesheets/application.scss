@@ -1,13 +1,22 @@
-// Graphical variables
-@import "config/fonts";
-@import "config/colors";
-
 // External libraries
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+
 // CSS partials
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+// General rules
+body {
+  font-family: $base-font !important;
+}
+.btn-primary:hover {
+  background: $blue-dark !important;
+}
+
