@@ -1,1 +1,7 @@
-_form_pedidos.html.erb
+<%= simple_form_for @pedido do |f| %>
+  <%= f.input :nome %>
+  <%= f.input :email %>
+  <%= f.input :ano_letivo, collection: Area.all.map{ |a| a.name } %>
+  <%= f.input  :tipo, collection: Disciplina.all.map {|d| d.nome }%>
+  <%= f.button :submit %>
+<% end %>
