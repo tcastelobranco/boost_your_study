@@ -1,8 +1,4 @@
 class PedidosController < ApplicationController
-  def new
-    @pedido = Pedido.new
-
-  end
 
   def create
     @pedido = Pedido.new(pedidos_params)
@@ -19,7 +15,7 @@ class PedidosController < ApplicationController
   private
 
    def pedidos_params
-    params.require(:pedido).permit(:nome, :email, :ano_letivo, :tipo)
+    params.require(:pedido).permit(:nome, :email, :ano_letivo, :tipo, :disciplina)
     end
   #strong params
 end
