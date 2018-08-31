@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'preco_modalidades', to: 'pages#preco_modalidades'
   get 'equipa', to:'pages#equipa'
   get 'area', to:'pages#area'
+  get 'pedido', to:'pages#pedido'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
