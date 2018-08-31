@@ -2,7 +2,7 @@ import Typed from 'typed.js';
 
 function loadTypedText() {
   new Typed('#section-typed-text', {
-    strings: ["mathematics", "physics", "coding", "languages"],
+    strings: ["matemática", "português", "física-química", "ciências", "economia"],
     typeSpeed: 100,
     loop: true
   });
