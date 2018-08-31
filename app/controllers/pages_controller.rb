@@ -2,16 +2,17 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
+  def pedido
     @pedido = Pedido.new
   end
 
-  def preco_modalidades
+  def about
+  end
 
+  def preco_modalidades
   end
 
   def equipa
-
   end
 
   # o nome do find_by tem que ser o mesmo que está na DB. Restorna as disciplinas que cada area tem.
