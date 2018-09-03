@@ -1,8 +1,10 @@
 .card {
+  margin-right: auto;
+  margin-left: auto;
   width:80%;
   margin-top: 80px;
+  margin-bottom: 80px;
   height: 400px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: white;
@@ -16,25 +18,27 @@
   border-radius: 50%;
 }
 .card-category {
-  position: absolute;
+
+  position: relative;
   top: 10px;
-  left: 10px;
-  font-size: 15px;
+  font-size: 30px;
+  color: grey;
   text-transform: uppercase;
+  font-style: none;
 }
 .card-description {
-  position: absolute;
+  color: grey;
+  position: relative;
   bottom: 10px;
-  left: 10px;
-}
-.card-description h2 {
-  font-size: 24px;
-}
-.card-description p {
-  font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
-}
+  }
+  .card-description-modalidades {
+  color: grey;
+  position: relative;
+  margin-top: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+
 .card-link {
   position: absolute;
   top: 0;
@@ -47,4 +51,20 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.icon_prices {
+  height: 70%;
+  width: 80%;
+  display:block;
+  margin:auto;
+}
+.icon_modalidades {
+  height: 25%;
+  width: 65%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px;
+
 }
