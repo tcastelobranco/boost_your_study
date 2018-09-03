@@ -16,6 +16,6 @@ class PedidosController < ApplicationController
 
    def pedidos_params
     params.require(:pedido).permit(:nome, :email, :ano_letivo, :tipo, :disciplina)
-    end
+  end
   #strong params
 end
