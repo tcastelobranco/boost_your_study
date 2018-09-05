@@ -1,14 +1,8 @@
 <%= simple_form_for @pedido do |f| %>
   <%= f.input :nome %>
-  <%= f.input :ano %>
-  <%= f.input :escola %>
+
   <%= f.input :disciplina, collection: Disciplina.all.map {|d| d.nome } << "Outra" %>
-  <%= f.input :nota %>
-  <%= f.input :PEI %>
-  <%= f.input :morada %>
-  <%= f.input :data %>
-  <%= f.input :contacto %>
-  <%= f.input :booster %>
+
   <%= f.input :ano_letivo, collection: Area.all.map{ |a| a.name} %>
   <%= f.input :tipo, collection: ["Aluno", "Professor"] %>
   <%= f.button :submit, class: 'btn btn-outline-orange' %>
