@@ -9,17 +9,17 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item" style="padding-right: 1.5rem !important;">
+        <%= link_to 'Sobre nós', about_path, class: 'nav-link' %>
+      </li>
       <li class="nav-item">
-        <%= link_to 'Area', area_path, class: 'nav-link' %>
+        <%= link_to 'Áreas', area_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Preços e Modalidades', preco_modalidades_path, class: 'nav-link' %>
       </li>
       <li class="nav-item">
         <%= link_to 'Equipa', equipa_path, class: 'nav-link' %>
-      </li>
-      <li class="nav-item">
-        <%= link_to 'Preço e modalidades', preco_modalidades_path, class: 'nav-link' %>
-      </li>
-      <li class="nav-item" style="padding-right: 1.5rem !important;">
-        <%= link_to 'Sobre nós', about_path, class: 'nav-link' %>
       </li>
       <%= link_to 'Inscreve-te', pedido_path, class: 'btn btn-outline-orange' %>
     </ul>
