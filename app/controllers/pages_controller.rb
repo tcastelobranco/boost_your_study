@@ -2,6 +2,10 @@ class PagesController < ApplicationController
   def home
   end
 
+  def equipa_disciplina
+
+  end
+
   def pedido
     @pedido = Pedido.new
   end

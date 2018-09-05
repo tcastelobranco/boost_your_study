@@ -1,5 +1,7 @@
 .form-style {
   margin: 0 auto;
+  color: $orange;
+
 }
 
 .form-card-content {
@@ -9,3 +11,11 @@
     margin: 2rem auto;
 
 }}
+
+.form-title {
+  position: relative;
+  top: 10px;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: $orange;
+}

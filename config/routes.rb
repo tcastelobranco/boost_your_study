@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'equipa', to:'pages#equipa'
   get 'area', to:'pages#area'
   get 'pedido', to:'pages#pedido'
+  get 'equipa_disciplina', to:'pages#equipa_disciplina'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

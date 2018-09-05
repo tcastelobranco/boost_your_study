@@ -13,6 +13,9 @@
   border-radius: 5%;
   justify-content: space-between;
 }
+.card-ciclo {
+  width:100%;
+}
 .card-subject {
 
   margin-right: auto;
@@ -49,8 +52,9 @@
   }
   .card-description-modalidades {
   color: grey;
+  margin-bottom: auto;
+  margin-top: auto;
   position: relative;
-  margin-top: 45px;
   margin-left: 15px;
   margin-right: 15px;
   }
@@ -81,7 +85,7 @@
   display:block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:40px;
+  margin-top:45px;
 }
 .icon_subjects {
   width: 100%;
