@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-
+  root 'pages#home'
   devise_for :users
   resources :pedidos, only: [:create]
-  root to: 'pages#home'
-
+  resources :areas, only: [:index]
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'preco_modalidades', to: 'pages#preco_modalidades'

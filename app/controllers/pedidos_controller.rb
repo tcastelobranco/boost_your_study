@@ -19,3 +19,10 @@ class PedidosController < ApplicationController
   end
   #strong params
 end
+# Dir.foreach('app/assets/images') do |item|
+#   if (item.include?("jpg") || item.include?("png") || item.include?("JPG") || item.include?("svg"))
+#     puts "app/assets/images" + item
+#     Cloudinary::Uploader.upload("app/assets/images/" + item)
+#   end
+# end
+#   Cloudinary::Uploader.upload(item)
