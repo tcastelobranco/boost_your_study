@@ -3,27 +3,34 @@
 <!-- Nome texto-->
   <%= f.input :ano_letivo, collection: Area.all.map{ |a| a.name} %>
 <!-- Ano letivo texto-->
-  <%= f.input :disciplina, collection: Disciplina.all.map {|d| d.nome } << "Outra" %>
+  <%= f.input :disciplina, collection: Disciplina.all.map {|d| d.nome } << "Outra", :label=>"Em que disciplinas é que precisas de um boost?" %>
 <!-- Em que disciplinas é que precisas de um boost? texto-->
-
+  <%= f.input :nome, :label=>"Com que notas é que estás nessas disciplinas?"%>
 <!-- Com que notas é que estás nessas disciplinas? texto-->
-
+  <%= f.input :nome, :label=>"Em que escola é que andas?"%>
 <!-- Em que escola é que andas? texto-->
-
+  <%= f.input :nome, :label=>"Tens PEI? (Dislexia, défice de atenção ou outro)?"%>
 <!-- Tens PEI? (Dislexia, défice de atenção ou outro)? texto-->
-
+  <%= f.input :nome, :label=>"Escolhe a modalidade em que queres ter explicações! dropdown(boost, mini boost e mega boost)"%>
 <!-- Escolhe a modalidade em que queres ter explicações! dropdown(boost, mini boost e mega boost)-->
-
+  <%= f.input :nome, :label=>"Quando queres ter explicações?(p.e. segunda-feira, das 16h00 às 18h00)"%>
 <!-- Quando queres ter explicações?(p.e. segunda-feira, das 16h00 às 18h00) texto-->
-
+  <%= f.input :nome, :label=>"Onde queres ter explicações? Deixa aqui a tua morada!"%>
 <!-- Onde queres ter explicações? Deixa aqui a tua morada! texto-->
-
+  <%= f.input :nome, :label=>"Quando queres começar as explicações?"%>
 <!-- Quando queres começar as explicações? texto-->
-
+  <%= f.input :nome, :label=>"Deixa aqui os teus contactos e os dos teus pais/encarregados de educação (telefone e email)"%>
 <!-- Deixa aqui os teus contactos e os dos teus pais/encarregados de educação (telefone e email) texto-->
-
+  <%= f.input :nome, :label=>"Finalmente, já escolheste o teu Booster? (Se não, nós escolhemos por ti com base no teu
+perfil!)"%>
 <!-- Finalmente, já escolheste o teu Booster? (Se não, nós escolhemos por ti com base no teu
 perfil!)  texto-->
-  <%= f.input :tipo, collection: ["Aluno", "Professor"] %>
   <%= f.button :submit, class: 'btn btn-outline-orange' %>
 <% end %>
+
+
+<!--
+    TODO: ISTO que está aqui em cima e pouco mais.
+    O multiple select implica mudar alguma coisas e ligar tudo com email.
+    Fazer o email
+   -->

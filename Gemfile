@@ -8,6 +8,8 @@ gem 'puma'
 gem 'rails', '5.2.1'
 gem 'redis'
 
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'carrierwave', '~> 1.2'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap'
@@ -15,10 +17,11 @@ gem 'devise'
 gem 'font-awesome-sass'
 gem 'jquery-rails'
 gem 'sass-rails'
-gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'simple_form'
+gem 'figaro'
+gem 'cloudinary'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
