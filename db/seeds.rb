@@ -11,6 +11,10 @@
 # fisica&quimica bioliogia&geologia geometriaDescritiva economia
 
 
+Area.create(name: "Primária")
+Area.create(name: "Básico")
+Area.create(name: "Secundário")
+Area.create(name: "Superior")
 Disciplina.create(nome: "Português", image: "portugues")
 Disciplina.create(nome: "Matemática", image: "matematica")
 Disciplina.create(nome: "Estudo do Meio", image: "estudo_do_meio")
@@ -18,17 +22,17 @@ Disciplina.create(nome: "Ingles", image: "ingles")
 Disciplina.create(nome: "Ciências", image: "estudo_do_meio")
 Disciplina.create(nome: "Físico-Química", image: "fisico_quimica")
 Disciplina.create(nome: "História", image: "historia")
-Disciplina.create(nome: "geografia", image: "geografia")
+Disciplina.create(nome: "Geografia", image: "geografia")
 Disciplina.create(nome: "Filosofia", image: "filosofia")
 Disciplina.create(nome: "espanhol", image: "espanhol")
 Disciplina.create(nome: "Francês", image: "frances")
 Disciplina.create(nome: "Alemão", image: "alemao")
 Disciplina.create(nome: "Latim", image: "latim")
-Disciplina.create(nome: "literatura Portuguesa", image: "literatura_portuguesa")
+Disciplina.create(nome: "Literatura Portuguesa", image: "literatura_portuguesa")
 Disciplina.create(nome: "MACS", image: "macs")
 Disciplina.create(nome: "Física e Química", image: "fisico_quimica")
 Disciplina.create(nome: "Biologoa e Geologia", image: "estudo_do_meio")
-Disciplina.create(nome: "Geometria descritiva", image: "geometria_descritiva")
+Disciplina.create(nome: "Geometria Descritiva", image: "geometria_descritiva")
 Disciplina.create(nome: "Economia", image: "economia")
 
 

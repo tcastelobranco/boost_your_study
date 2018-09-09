@@ -9,12 +9,13 @@
     <hr style="margin-top: 40px; margin-bottom: 40px;">
     <div class="row">
      <% area.disciplina_por_area.each do |disciplina| %>
+
      <%= link_to AreaDisciplina.find_by(area: area, disciplina: disciplina) do %>
      <div class="col-xs-12 col-sm-3">
       <div class="card-subject">
         <div class="card-subject" style=" width: 100%; height: 60%; margin-top: 0;">
+          <%= cl_image_tag disciplina.image, class: "icon_subjects" %>
 
-          <img class="icon_subjects" src="assets/icon_matematica.png" alt="">
         </div>
         <div class="card-category text-center"><strong><%= disciplina.nome %></strong></div>
         </div>
