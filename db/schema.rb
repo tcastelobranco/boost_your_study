@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_08_164259) do
+ActiveRecord::Schema.define(version: 2018_09_09_213602) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "area_disciplina_explicadors", force: :cascade do |t|
+    t.bigint "area_disciplina_id"
+    t.bigint "explicador_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["area_disciplina_id"], name: "index_area_disciplina_explicadors_on_area_disciplina_id"
+    t.index ["explicador_id"], name: "index_area_disciplina_explicadors_on_explicador_id"
+  end
 
   create_table "area_disciplinas", force: :cascade do |t|
     t.bigint "area_id"
@@ -76,6 +85,8 @@ ActiveRecord::Schema.define(version: 2018_09_08_164259) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "area_disciplina_explicadors", "area_disciplinas"
+  add_foreign_key "area_disciplina_explicadors", "explicadors"
   add_foreign_key "area_disciplinas", "areas"
   add_foreign_key "area_disciplinas", "disciplinas"
   add_foreign_key "explicador_disciplinas", "disciplinas"
