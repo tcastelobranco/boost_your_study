@@ -39,11 +39,11 @@ Disciplina.create(nome: "Economia", image: "economia")
 Explicador.create(name: "Joana Sousa Mendes", age: "24", image: "joana_sousa_mendes", descricao_resumida: "Founder & CEO do Boost Your Study
 Licenciada em Direito pela Faculdade de Direito da Universidade de Lisboa
 Áreas: Português, História, Filosofia e Direito; apoio a alunos com PEI (dislexia, défice de atenção e outros)
-", descricao_completa: "Founder & CEO do Boost Your Study
-Licenciada em Direito pela Faculdade de Direito da Universidade de Lisboa
-Colégio São João de Brito e Escola Secundária do Restelo| Curso de Ciências Socioeconómicas (Média final: 18/20)
-A Joana, neste momento, está a preparar a sua admissão na Ordem dos Advogados
-A Joana, durante este ano, estagiou na Morais Leitão, Galvão Teles, Soares da Silva & Associados, na equipa de Direito Administrativo e Contratação Pública
+", descricao_completa: "Founder & CEO do Boost Your Study\n
+Licenciada em Direito pela Faculdade de Direito da Universidade de Lisboa\n
+Colégio São João de Brito e Escola Secundária do Restelo| Curso de Ciências Socioeconómicas (Média final: 18/20)\n
+A Joana, neste momento, está a preparar a sua admissão na Ordem dos Advogados\n
+A Joana, durante este ano, estagiou na Morais Leitão, Galvão Teles, Soares da Silva & Associados, na equipa de Direito Administrativo e Contratação Pública\n
 Interesses: Educação, Viajar, Livros, Filosofia
 ")
 
