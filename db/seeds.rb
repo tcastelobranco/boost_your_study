@@ -14,7 +14,7 @@
 Area.create(name: "Primária")
 Area.create(name: "Básico")
 Area.create(name: "Secundário")
-Area.create(name: "Superior")
+# Area.create(name: "Superior")
 
 Disciplina.create(nome: "Português", image: "portugues")
 Disciplina.create(nome: "Matemática", image: "matematica")
