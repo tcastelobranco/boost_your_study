@@ -8,7 +8,6 @@ gem 'puma'
 gem 'rails', '5.2.1'
 gem 'redis'
 
-gem 'dotenv-rails', groups: [:development, :test]
 gem 'carrierwave', '~> 1.2'
 
 gem 'autoprefixer-rails'
@@ -22,6 +21,7 @@ gem 'webpacker'
 gem 'simple_form'
 gem 'figaro'
 gem 'cloudinary'
+gem "letter_opener", group: :development
 
 group :development do
   gem 'web-console', '>= 3.3.0'
