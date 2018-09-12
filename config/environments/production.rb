@@ -91,6 +91,13 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  Rails.application.configure do
+  # ...
+  config.action_mailer.delivery_method     = :postmark
+  config.action_mailer.postmark_settings   = { api_key: ENV['POSTMARK_API_KEY'] }
+  config.action_mailer.default_url_options = { host: "boostyourstudy.herokuapp.com" }
+  # or your custom domain name eg. "www.yourdomain.com"
+end
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
