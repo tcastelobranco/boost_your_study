@@ -22,7 +22,7 @@ gem 'simple_form'
 gem 'figaro'
 gem 'cloudinary'
 gem "letter_opener", group: :development
-gem 'postmark-rails'
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'
