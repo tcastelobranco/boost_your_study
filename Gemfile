@@ -8,14 +8,21 @@ gem 'puma'
 gem 'rails', '5.2.1'
 gem 'redis'
 
-gem 'devise'
+gem 'carrierwave', '~> 1.2'
+
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3'
-gem 'font-awesome-sass', '~> 5.0.9'
+gem 'bootstrap'
+gem 'devise'
+gem 'font-awesome-sass'
+gem 'jquery-rails'
 gem 'sass-rails'
-gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'simple_form'
+gem 'figaro'
+gem 'cloudinary'
+gem "letter_opener", group: :development
+gem 'postmark-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

@@ -1,0 +1,17 @@
+<%= simple_form_for @pedido do |f| %>
+  <%= f.input :nome %>
+  <%= f.input :ano_letivo, collection: Area.all.map{ |a| a.name} %>
+  <%= f.input :disciplina, :label=>"Em que disciplinas é que precisas de um boost?" %>
+  <%= f.input :notas, :label=>"Com que notas é que estás nessas disciplinas?"%>
+  <%= f.input :escola, :label=>"Em que escola é que andas?"%>
+  <%= f.input :pei, :label=>"Tens PEI? (Dislexia, défice de atenção ou outro)?"%>
+  <%= f.input :modalidade, :label=>"Escolhe a modalidade em que queres ter explicações! dropdown(boost, mini boost e mega boost)"%>
+  <%= f.input :horario, :label=>"Quando queres ter explicações?(p.e. segunda-feira, das 16h00 às 18h00)"%>
+  <%= f.input :local, :label=>"Onde queres ter explicações? Deixa aqui a tua morada!"%>
+  <%= f.input :start, :label=>"Quando queres começar as explicações?"%>
+  <%= f.input :contactos, :label=>"Deixa aqui os teus contactos e os dos teus pais/encarregados de educação (telefone e email)"%>
+  <%= f.input :booster, :label=>"Finalmente, já escolheste o teu Booster? (Se não, nós escolhemos por ti com base no teu
+  perfil!)"%>
+  <%= f.button :submit, :value=>"Submeter",  class: 'btn btn-outline-orange' %>
+<% end %>
+<!-- faltam os reports!!!! -->

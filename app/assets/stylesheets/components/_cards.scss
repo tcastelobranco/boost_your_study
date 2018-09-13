@@ -1,0 +1,140 @@
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  width:80%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  height: 400px;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-style: none;
+  border-radius: 5%;
+  justify-content: space-around;
+}
+
+.cartolina {
+  margin-right: auto;
+  margin-left: auto;
+  width:80%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  height: 400px;
+  background-size: cover !important;
+  // background-position: center;
+  color: white;
+  position: relative;
+  border-style: none;
+  border-radius: 5%;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.cartao {
+  margin-right: auto;
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  border-style: none;
+  justify-content: space-around;
+  top: 40px;
+  width: 100%;
+  height:100px;
+  background-color: #F37F34;
+  margin-left: 0;
+}
+.card-ciclo {
+  width:100%;
+}
+.card-subject {
+
+  margin-right: auto;
+  margin-left: auto;
+  width:80%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 300px;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-about {
+  margin-right: auto;
+  margin-left: auto;
+  width:100%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  height: 600px;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-style: none;
+  border-radius: 5%;
+}
+
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-category {
+
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  color: grey;
+  text-transform: uppercase;
+  font-style: none;
+}
+
+.card-description {
+  color: grey;
+  position: relative;
+  bottom: 10px;
+  }
+  .card-description-modalidades {
+  color: grey;
+  margin-bottom: auto;
+  margin-top: auto;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.icon_prices {
+  height: 60%;
+  width: 80%;
+  display:block;
+  margin:auto;
+}
+.icon_modalidades {
+  height: 25%;
+  width: 65%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:45px;
+}
+.icon_subjects {
+  width: 100%;
+  top: 0px;
+}

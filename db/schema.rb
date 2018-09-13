@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_24_213001) do
+ActiveRecord::Schema.define(version: 2018_09_10_120937) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "area_disciplina_explicadors", force: :cascade do |t|
+    t.bigint "area_disciplina_id"
+    t.bigint "explicador_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["area_disciplina_id"], name: "index_area_disciplina_explicadors_on_area_disciplina_id"
+    t.index ["explicador_id"], name: "index_area_disciplina_explicadors_on_explicador_id"
+  end
 
   create_table "area_disciplinas", force: :cascade do |t|
     t.bigint "area_id"
@@ -34,6 +43,7 @@ ActiveRecord::Schema.define(version: 2018_08_24_213001) do
     t.string "nome"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
   end
 
   create_table "explicador_disciplinas", force: :cascade do |t|
@@ -47,10 +57,12 @@ ActiveRecord::Schema.define(version: 2018_08_24_213001) do
 
   create_table "explicadors", force: :cascade do |t|
     t.string "name"
-    t.string "phone_number"
-    t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
+    t.string "descricao_resumida"
+    t.string "descricao_completa"
+    t.string "age"
   end
 
   create_table "pedidos", force: :cascade do |t|
@@ -60,6 +72,16 @@ ActiveRecord::Schema.define(version: 2018_08_24_213001) do
     t.string "tipo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "disciplina"
+    t.string "notas"
+    t.string "escola"
+    t.string "pei"
+    t.string "modalidade"
+    t.string "horario"
+    t.string "local"
+    t.string "start"
+    t.string "contactos"
+    t.string "booster"
   end
 
   create_table "users", force: :cascade do |t|
@@ -74,6 +96,8 @@ ActiveRecord::Schema.define(version: 2018_08_24_213001) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "area_disciplina_explicadors", "area_disciplinas"
+  add_foreign_key "area_disciplina_explicadors", "explicadors"
   add_foreign_key "area_disciplinas", "areas"
   add_foreign_key "area_disciplinas", "disciplinas"
   add_foreign_key "explicador_disciplinas", "disciplinas"

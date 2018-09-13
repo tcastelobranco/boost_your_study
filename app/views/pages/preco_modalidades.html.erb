@@ -1,63 +1,72 @@
+<div  <%= cl_image_tag 'background_image' %> >
 <div class="container">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="tab" role="tabpanel">
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Preço</a></li>
-					<li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Modalidades</a></li>
+  <div class="row">
+    <p class="text-center" style="margin-right: auto; margin-left: auto; margin-top: 40px;">
+      <strong class="subtitle team-title">Preços</strong>
+    </p>
+  </div>
+  <hr style="margin-top: 40px; margin-bottom: 40px;">
+  <div class="row">
+    <div class="col-xs-12 col-sm-3">
+      <div class="card card-ciclo" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center"><strong>Primário</strong></div>
+        <img class="icon_prices" src="assets/icon_primario.png" alt="">
+        <div class="card-description text-center">25€/h</div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <div class="card card-ciclo" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center"><strong>Básico</strong></div>
+        <img class="icon_prices" src="assets/icon_basico.png" alt="">
+        <div class="card-description text-center">25€/h</div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <div class="card card-ciclo" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center"><strong>Secundário</strong></div>
+        <img class="icon_prices" src="assets/icon_secundario.png" alt="">
+        <div class="card-description text-center">27,5€/h</div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <div class="card card-ciclo" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center"><strong>Superior</strong></div>
+        <img class="icon_prices" src="assets/icon_superior.png" alt="">
+        <div class="card-description text-center">35€/h</div>
+      </div>
+    </div>
+  </div>
 
-				</ul>
-				<!-- Tab panes -->
-				<div class="tab-content tabs">
-					<div role="tabpanel" class="tab-pane fade in active" id="Section1">
+  <hr style="margin-top: -20px; margin-bottom: -3px;">
+  <div class="row">
+    <p class="text-center" style="margin-right: auto; margin-left: auto; margin-top: 40px;">
+      <strong class="subtitle team-title">Modalidades</strong>
+    </p>
+  </div>
+  <hr style="margin-top: 40px;">
 
-						<TABLE>
-							<TR>
-								<TD>Primário</TD>
-								<TD>Price</TD>
-							</TR>
-							<TR>
-								<TD>Básico</TD>
-								<TD>Price</TD>
-							</TR>
-							<TR>
-								<TD>Secundário</TD>
-								<TD>Price</TD>
-							</TR>
-							<TR>
-								<TD>Superior</TD>
-								<TD>Price</TD>
-							</TR>
-						</TABLE>
-
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="Section2">
-						<TABLE>
-							<TR>
-								<TD>Title</TD>
-								<TD>Explanation</TD>
-								<TD>Price</TD>
-							</TR>
-							<TR>
-								<TD>Title</TD>
-								<TD>Explanation</TD>
-								<TD>Price</TD>
-							</TR>
-							<TR>
-								<TD>Title</TD>
-								<TD>Explanation</TD>
-								<TD>Price</TD>
-							</TR>
-						</TABLE>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center" style="margin-top: 10px;"><strong>Mini boost</strong></div>
+        <img class="icon_modalidades" src="assets/icon_miniboost.png" alt="">
+        <div class="card-description-modalidades text-center">Explicações especificamente dirigidas à preparação de um teste, exame ou trabalho escolar.</div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center" style="margin-top: 10px;"><strong>Boost</strong></div>
+        <img class="icon_modalidades" src="assets/icon_boostnormal.png" alt="">
+        <div class="card-description-modalidades text-center">Explicações regulares, ao longo do ano letivo</div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('assets/grey_background.png');">
+        <div class="card-category text-center" style="margin-top: 10px;"><strong>Mega Boost</strong></div>
+        <img class="icon_modalidades" src="assets/icon_megaboost.png" alt="">
+        <div class="card-description-modalidades text-center">Curso intensivo de preparação para os exames nacionais</div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+</div>
