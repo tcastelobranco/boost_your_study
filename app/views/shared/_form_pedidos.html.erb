@@ -5,14 +5,20 @@
   <%= f.input :notas, :label=>"Com que notas é que estás nessas disciplinas?"%>
   <%= f.input :escola, :label=>"Em que escola é que andas?"%>
   <%= f.input :pei, :label=>"Tens PEI? (Dislexia, défice de atenção ou outro)?"%>
-  <%= f.input :modalidade, :label=>"Escolhe a modalidade em que queres ter explicações! dropdown(boost, mini boost e mega boost)"%>
-  <%= f.input :horario, :label=>"Quando queres ter explicações?(p.e. segunda-feira, das 16h00 às 18h00)"%>
+  <%= f.input :modalidade, collection: ["Mini boost", "Boost", "Mega boost"], :label=>"Escolhe a modalidade em que queres ter explicações!"%>
+  <%= f.input :horario, :label=>"Quando queres ter explicações? (p.e. segunda-feira, das 16h00 às 18h00)"%>
   <%= f.input :local, :label=>"Onde queres ter explicações? Deixa aqui a tua morada!"%>
   <%= f.input :start, :label=>"Quando queres começar as explicações?"%>
   <%= f.input :contactos, :label=>"Deixa aqui os teus contactos e os dos teus pais/encarregados de educação (telefone e email)"%>
-  <%= f.input :reports, :label=>"Queres um relatório sobre o teu desempenho?"%>
+  <%= f.input :reports, :label=>"Diz-nos com que frequência queres receber reports! (nunca, quinzenalmente, mensalmente, outro)"%>
   <%= f.input :booster, :label=>"Finalmente, já escolheste o teu Booster? (Se não, nós escolhemos por ti com base no teu
   perfil!)"%>
   <%= f.button :submit, :value=>"Submeter",  class: 'btn btn-outline-orange' %>
 <% end %>
 
+
+ <!-- Explicação dos reports a acrescentar: (pop up ou modal)
+
+ Os Reports são
+relatórios de avaliação do progresso dos alunos, que são enviados, por e-mail, aos pais, de
+modo a envolvê-los no processo de evolução dos seus filhos] -->

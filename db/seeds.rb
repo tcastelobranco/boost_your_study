@@ -19,7 +19,7 @@ Area.create(name: "Secundário")
 Disciplina.create(nome: "Português", image: "portugues")
 Disciplina.create(nome: "Matemática", image: "matematica")
 Disciplina.create(nome: "Estudo do Meio", image: "estudo_do_meio")
-Disciplina.create(nome: "Ingles", image: "ingles")
+Disciplina.create(nome: "Inglês", image: "ingles")
 Disciplina.create(nome: "Ciências", image: "estudo_do_meio")
 Disciplina.create(nome: "Físico-Química", image: "fisico_quimica")
 Disciplina.create(nome: "História", image: "historia")
@@ -32,7 +32,7 @@ Disciplina.create(nome: "Latim", image: "latim")
 Disciplina.create(nome: "Literatura Portuguesa", image: "literatura_portuguesa")
 Disciplina.create(nome: "MACS", image: "macs")
 Disciplina.create(nome: "Física e Química", image: "fisico_quimica")
-Disciplina.create(nome: "Biologoa e Geologia", image: "estudo_do_meio")
+Disciplina.create(nome: "Biologia e Geologia", image: "estudo_do_meio")
 Disciplina.create(nome: "Geometria Descritiva", image: "geometria_descritiva")
 Disciplina.create(nome: "Economia", image: "economia")
 
@@ -55,7 +55,7 @@ A Carminho, este ano, estagiou na promotora de Festivais de Música - Música no
 Interesses: Música, Teatro, Cinema, Cantar, Ginástica
 ")
 
-Explicador.create(name: "Carolina Baltasar", age: "", image: "carolina_baltasar", descricao_resumida: "5º ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
+Explicador.create(name: "Carolina Baltazar", age: "", image: "carolina_baltasar", descricao_resumida: "5º ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
 Universidade Nova de Lisboa
 Áreas: Biologia", descricao_completa: "5º Ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
 Universidade Nova de Lisboa

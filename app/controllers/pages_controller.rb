@@ -19,6 +19,10 @@ class PagesController < ApplicationController
   def equipa
   end
 
+  def recrutamento
+
+  end
+
   # o nome do find_by tem que ser o mesmo que está na DB. Restorna as disciplinas que cada area tem.
 
   def area
