@@ -1,8 +1,9 @@
 class PedidosController < ApplicationController
 
   def create
-    @pedido = Pedido.new(pedidos_params)
-    if  @pedido.save
+    pedido = Pedido.new(pedidos_params)
+    if  pedido.save
+      UserMailer.welcome(pedido).deliver_now
       redirect_to root_path
     end
      #por nome da funcao dado no metodo dos strong params
@@ -15,7 +16,7 @@ class PedidosController < ApplicationController
   private
 
    def pedidos_params
-    params.require(:pedido).permit(:nome, :ano, :escola, :disciplina, :nota, :PEI, :morada, :data, :contacto, :reports, :booster)
+    params.require(:pedido).permit(:nome, :ano_letivo, :disciplina, :notas, :escola, :pei, :modalidade, :horario, :local, :start, :contactos, :booster)
   end
   #strong params
 end
