@@ -1,6 +1,26 @@
 
-<p>Olá <%= @user.email %>,</p>
-
-<p>Entraremos em contacto contigo para a confirmação do teu boost!</p>
-
-<p>Obrigado.</p>
+<p>Nome:</p>
+<p><%= @pedido.nome %></p>
+<p>Ano:</p>
+<p><%= @pedido.ano_letivo %></p>
+<p>Em que disciplinas é que precisas de um boost?</p>
+<p><%= @pedido.disciplina %></p>
+<p>Com que notas é que estás nessas disciplinas?</p>
+<p><%= @pedido.notas %></p>
+<p>Em que escola é que andas?</p>
+<p><%= @pedido.escola %></p>
+<p>Tens PEI? (Dislexia, défice de atenção ou outro)?</p>
+<p><%= @pedido.pei %></p>
+<p>Escolhe a modalidade em que queres ter explicações! dropdown(boost, mini boost e mega boost)</p>
+<p><%= @pedido.modalidade %></p>
+<p>Quando queres ter explicações?(p.e. segunda-feira, das 16h00 às 18h00)</p>
+<p><%= @pedido.horario %></p>
+<p>Onde queres ter explicações? Deixa aqui a tua morada!</p>
+<p><%= @pedido.local %></p>
+<p>Quando queres começar as explicações?</p>
+<p><%= @pedido.start %></p>
+<p>Deixa aqui os teus contactos e os dos teus pais/encarregados de educação (telefone e email)</p>
+<p><%= @pedido.contactos %></p>
+<p>Finalmente, já escolheste o teu Booster? (Se não, nós escolhemos por ti com base no teu
+  perfil!)</p>
+<p><%= @pedido.booster %></p>
