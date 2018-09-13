@@ -55,9 +55,15 @@ A Carminho, este ano, estagiou na promotora de Festivais de Música - Música no
 Interesses: Música, Teatro, Cinema, Cantar, Ginástica
 ")
 
-Explicador.create(name: "Carolina Baltasar", age: "", image: "carolina_baltasar", descricao_resumida: "4.º ano da Licenciatura em Direito na Faculdade de Direito da Universidade Católica Portuguesa
-Áreas: História e Matemática
-", descricao_completa: "")
+Explicador.create(name: "Carolina Baltasar", age: "", image: "carolina_baltasar", descricao_resumida: "5º ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
+Universidade Nova de Lisboa
+Áreas: Biologia", descricao_completa: "5º Ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
+Universidade Nova de Lisboa
+Colégio de São Tomás | Curso de Ciências e Tecnologias (Média final: 18/20)
+A Carolina está atualmente a realizar estágios nas várias especialidades nos Hospitais de Lisboa
+A Carolina participou na organização do XVI Hospital da Bonecada, projeto da Associação de
+estudantes da Faculdade de Ciências Médicas
+Interesses: Viajar, Costura, Livros, Desporto")
 
 Explicador.create(name: "Catarina Barbosa", age: "21", image: "catarina_barbosa", descricao_resumida: "4.º ano da Licenciatura em Direito na Faculdade de Direito da Universidade Católica Portuguesa
 Áreas: História e Matemática
@@ -187,6 +193,15 @@ O Tomás, recentemente, realizou também um curso avançado de Excel e de Macros
 Interesses: Rugby, Caça
 ")
 
+Explicador.create(name: "Marta Pinto", age: "23", image: "marta_pinto", descricao_resumida: "5º ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
+Universidade Nova de Lisboa
+Áreas: Biologia, Física e Química e Matemática
+", descricao_completa: "5º Ano do Mestrado Integrado em Medicina da Faculdade de Ciências Médicas da
+Universidade Nova de Lisboa
+Escola Secundária Garcia de Orta| Curso de Ciências e Tecnologias (Média final: 18/20)
+A Marta está atualmente a realizar estágios nas várias especialidades nos Hospitais de Lisboa
+")
+
 AreaDisciplina.create(area_id: 1, disciplina_id: 1)
 AreaDisciplina.create(area_id: 1, disciplina_id: 2)
 AreaDisciplina.create(area_id: 1, disciplina_id: 3)
@@ -236,11 +251,13 @@ AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 13)
 AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 7)
 AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 6)
+AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 19)
 # Estudo do meio primario
 AreaDisciplinaExplicador.create(area_disciplina_id: 3, explicador_id: 14)
 AreaDisciplinaExplicador.create(area_disciplina_id: 3, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 3, explicador_id: 6)
 AreaDisciplinaExplicador.create(area_disciplina_id: 3, explicador_id: 3)
+AreaDisciplinaExplicador.create(area_disciplina_id: 3, explicador_id: 19)
 # Ingles primario
 AreaDisciplinaExplicador.create(area_disciplina_id: 4, explicador_id: 5)
 AreaDisciplinaExplicador.create(area_disciplina_id: 4, explicador_id: 15)
@@ -263,15 +280,18 @@ AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 13)
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 7)
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 6)
+AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 19)
 # ciencias basico
 AreaDisciplinaExplicador.create(area_disciplina_id: 7, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 7, explicador_id: 6)
 AreaDisciplinaExplicador.create(area_disciplina_id: 7, explicador_id: 3)#verificar
+AreaDisciplinaExplicador.create(area_disciplina_id: 7, explicador_id: 19)
 # fisico-quimica basico
 AreaDisciplinaExplicador.create(area_disciplina_id: 8, explicador_id: 14)
 AreaDisciplinaExplicador.create(area_disciplina_id: 8, explicador_id: 12)
 AreaDisciplinaExplicador.create(area_disciplina_id: 8, explicador_id: 7)
 AreaDisciplinaExplicador.create(area_disciplina_id: 8, explicador_id: 6)
+AreaDisciplinaExplicador.create(area_disciplina_id: 8, explicador_id: 19)
 # historia basico
 AreaDisciplinaExplicador.create(area_disciplina_id: 9, explicador_id: 1)
 AreaDisciplinaExplicador.create(area_disciplina_id: 9, explicador_id: 10)
@@ -326,10 +346,12 @@ AreaDisciplinaExplicador.create(area_disciplina_id: 22, explicador_id: 14)
 AreaDisciplinaExplicador.create(area_disciplina_id: 22, explicador_id: 12)
 AreaDisciplinaExplicador.create(area_disciplina_id: 22, explicador_id: 7)
 AreaDisciplinaExplicador.create(area_disciplina_id: 22, explicador_id: 6)
+AreaDisciplinaExplicador.create(area_disciplina_id: 22, explicador_id: 19)
 # biologia e geologia secundario
 AreaDisciplinaExplicador.create(area_disciplina_id: 23, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 23, explicador_id: 6)
 AreaDisciplinaExplicador.create(area_disciplina_id: 23, explicador_id: 3)
+AreaDisciplinaExplicador.create(area_disciplina_id: 23, explicador_id: 19)
 # geometria descritiva secundario
 AreaDisciplinaExplicador.create(area_disciplina_id: 24, explicador_id: 14)
 # economia secundario
