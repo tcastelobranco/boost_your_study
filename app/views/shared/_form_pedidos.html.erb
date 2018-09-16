@@ -1,6 +1,6 @@
 <%= simple_form_for @pedido do |f| %>
   <%= f.input :nome %>
-  <%= f.input :ano_letivo, collection: Area.all.map{ |a| a.name} %>
+  <%= f.input :ano_letivo, :label=>"Em que ano estás?" %>
   <%= f.input :disciplina, :label=>"Em que disciplinas é que precisas de um boost?" %>
   <%= f.input :notas, :label=>"Com que notas é que estás nessas disciplinas?"%>
   <%= f.input :escola, :label=>"Em que escola é que andas?"%>
