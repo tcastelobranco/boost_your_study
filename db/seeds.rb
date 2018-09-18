@@ -199,7 +199,7 @@ AreaDisciplinaExplicador.create(area_disciplina_id: 4, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 1)
 AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 5)
 AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 10)
-AreaDisciplinaExplicador.create(area_disciplina_id: 1, explicador_id: 12)
+AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 12)
 # mat basico
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 14)
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 11)
