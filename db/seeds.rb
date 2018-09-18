@@ -92,10 +92,9 @@ Explicador.create(name: "Maria Ana Duarte", age: "21", image: "maria_ana_duarte"
 ", descricao_completa: "Licenciada em Economia pela Nova School of Business and Economics | Colégio São João de Brito| Curso de Ciências Socioeconómicas (Média final: 18/20) | A Maria Ana, neste momento, está a frequentar o Mestrado em Finanças na Nova School of Business and Economics | A Maria Ana, recentemente, estagiou no ComparaJá, uma startup de financial technology | Interesses: Desenhar, Viajar, Cozinhar
 ")
 
-Explicador.create(name: "Pedro Barahona", age: "21", image: "pedro_barahona", descricao_resumida: "Licenciado em Engenharia Física Tecnológica pelo Instituto Superior Técnico da Universidade de Lisboa
-Áreas: Matemática,  Física e Química, Inglês e Latim
-", descricao_completa: "Licenciado em Engenharia Física Tecnológica pelo Instituto Superior Técnico da Universidade de Lisboa | Escola Secundária Pedro Nunes| Curso de Ciências e Tecnologia (Média final: 18/20) | O Pedro, neste momento, está a frequentar o Mestrado em Engenharia Física Tecnológica no Instituto Superior Técnico da Universidade de Lisboa e, ao mesmo tempo, uma segunda licenciatura em Estudos Clássicos na Faculdade de Letras da Universidade de Lisboa
-Interesses: Ler, Piano
+Explicador.create(name: "Pedro Barahona", age: "21", image: "pedro_barahona", descricao_resumida: "3.º ano do Mestrado Integrado em Engenharia Física Tecnológica do Instituto Superior Técnico da Universidade de Lisboa
+Áreas: Matemática,  Física e Química, Latim, Inglês e Português
+", descricao_completa: "3.º ano do Mestrado Integrado em Engenharia Física Tecnológica do Instituto Superior Técnico da Universidade de Lisboa | Escola Secundária Pedro Nunes | Curso de Ciências e Tecnologia (Média final: 18/20) | O Pedro, neste momento, está a frequentar o Mestrado Integrado em Engenharia Física Tecnológica no Instituto Superior Técnico da Universidade de Lisboa e, ao mesmo tempo, uma segunda licenciatura em Estudos Clássicos na Faculdade de Letras da Universidade de Lisboa | Interesses: Ler, Piano
 ")
 
 Explicador.create(name: "Pedro Megre", age: "19", image: "pedro_megre", descricao_resumida: "3º ano da Licenciatura em Gestão na Universidade Católica Portuguesa
@@ -170,6 +169,7 @@ AreaDisciplina.create(area_id: 3, disciplina_id: 13)
 AreaDisciplinaExplicador.create(area_disciplina_id: 1, explicador_id: 1)
 AreaDisciplinaExplicador.create(area_disciplina_id: 1, explicador_id: 5)
 AreaDisciplinaExplicador.create(area_disciplina_id: 1, explicador_id: 10)
+AreaDisciplinaExplicador.create(area_disciplina_id: 1, explicador_id: 12)
 # Mat primario
 AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 14)
 AreaDisciplinaExplicador.create(area_disciplina_id: 2, explicador_id: 11)
@@ -199,6 +199,7 @@ AreaDisciplinaExplicador.create(area_disciplina_id: 4, explicador_id: 17)
 AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 1)
 AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 5)
 AreaDisciplinaExplicador.create(area_disciplina_id: 5, explicador_id: 10)
+AreaDisciplinaExplicador.create(area_disciplina_id: 1, explicador_id: 12)
 # mat basico
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 14)
 AreaDisciplinaExplicador.create(area_disciplina_id: 6, explicador_id: 11)
