@@ -97,7 +97,7 @@ Explicador.create(name: "Pedro Barahona", age: "21", image: "pedro", descricao_r
 ", descricao_completa: "3.º ano do Mestrado Integrado em Engenharia Física Tecnológica do Instituto Superior Técnico da Universidade de Lisboa | Escola Secundária Pedro Nunes | Curso de Ciências e Tecnologia (Média final: 18/20) | O Pedro, neste momento, está a frequentar o Mestrado Integrado em Engenharia Física Tecnológica no Instituto Superior Técnico da Universidade de Lisboa e, ao mesmo tempo, uma segunda licenciatura em Estudos Clássicos na Faculdade de Letras da Universidade de Lisboa | Interesses: Ler, Piano
 ")
 
-Explicador.create(name: "Pedro Megre", age: "19", image: "pedro_megre", descricao_resumida: "3º ano da Licenciatura em Gestão na Universidade Católica Portuguesa
+Explicador.create(name: "Pedro Megre", age: "19", image: "pedro_megre2", descricao_resumida: "3º ano da Licenciatura em Gestão na Universidade Católica Portuguesa
 Áreas: Matemática, Economia e História
 ", descricao_completa: "3º ano da Licenciatura em Gestão na Universidade Católica Portuguesa | Salesianos de Lisboa | Curso de Ciências Socioeconómicas (Média final: 16/20) | O Pedro estagiou na MSTF Partners e, atualmente, trabalha na empresa IMPEC | Interesses: Viajar, Surf
 ")
