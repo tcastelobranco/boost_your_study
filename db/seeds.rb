@@ -106,7 +106,7 @@ Explicador.create(name: "Ricardo Martinez", age: "22", image: "ricardo", descric
 Áreas: Matemática,  Física e Química e Geometria Descritiva
 ", descricao_completa: "Licenciado em Engenharia Mecânica pelo Instituto Superior Técnico da Universidade de Lisboa | Escola Secundária Rainha Dona Leonor| Curso de Ciências e Tecnologia (Média final: 17/20) | O Ricardo, neste momento, está a concluir o Mestrado em Engenharia e Gestão Industrial no Instituto Superior Técnico da Universidade de Lisboa | Na sua tese final de Mestrado está a trabalhar com a Greenyard Logistics Portugal, num projeto relacionado com a sustentabilidade nas cadeias de abastecimento agroalimentares | Interesses: Viajar, Desporto ")
 
-Explicador.create(name: "Rita Mascarenhas de Lemos", age: "18", image: "rita_mascarenhas_lemos", descricao_resumida: "1.º ano da Licenciatura em Direito na Faculdade de Direito da Universidade de Lisboa
+Explicador.create(name: "Rita Mascarenhas de Lemos", age: "18", image: "rita", descricao_resumida: "1.º ano da Licenciatura em Direito na Faculdade de Direito da Universidade de Lisboa
 Áreas: Filosofia, História e Inglês 
 ", descricao_completa: "1.º ano da Licenciatura em Direito na Faculdade de Direito da Universidade de Lisboa | Escola Secundária Pedro Nunes| Curso de Ciências Socioeconómicas (Média final: 16/20) | A Rita anima CAMTIL e é voluntária no JRS-Jesuit Refugee Service, tendo, nesse âmbito, apoiado refugiados sírios em situações de vulnerabilidade social, através do ensino da Língua Portuguesa | Interesses: Música, Voluntariado, Campos de Férias, Literatura, Viajar
 ")
