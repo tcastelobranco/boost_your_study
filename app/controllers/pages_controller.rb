@@ -23,7 +23,7 @@ class PagesController < ApplicationController
 
   end
 
-  # o nome do find_by tem que ser o mesmo que está na DB. Restorna as disciplinas que cada area tem.
+  # o nome do find_by tem que ser o mesmo que está na DB. Retorna as disciplinas que cada area tem.
 
   def area
    @disciplinas_primaria = AreaDisciplina.where(area: Area.find_by(name: "Primario")).map { |ad| ad.disciplina }

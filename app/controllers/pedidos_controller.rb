@@ -1,4 +1,4 @@
-class PedidosController < ApplicationController
+  class PedidosController < ApplicationController
 
   def create
     pedido = Pedido.new(pedidos_params)
@@ -20,6 +20,7 @@ class PedidosController < ApplicationController
   end
   #strong params
 end
+
 # Dir.foreach('app/assets/images') do |item|
 #   if (item.include?("jpg") || item.include?("png") || item.include?("JPG") || item.include?("svg"))
 #     puts "app/assets/images" + item
